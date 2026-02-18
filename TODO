@@ -1,0 +1,24 @@
+Timeline pour faire grossir la bombe pendant 3 secondes avant qu'elle explose
+Box casting pour les lignes d'explosion de la bombe (box trace)
+
+commencer par l'explosion de la bombe
+faire la map (voir diapo de l'avant dernière fois et de la dernière fois pour faire la map et le multiplayer local)
+puis multijoueur local (sans split screen)
+désactiver le split screen : project settings 'local multiplayer -> use splitcreen'
+
+multijoueur local :
+
+détecter les manettes :
+get all connected input devices
+
+player start (position de spawn)
+spawn les characters
+créer les controller
+
+link player et controller:
+créer un controller et faire "possess" sur le pawn
+
+(link les inputs ?)
+
+tester 1 puis 2 etc
+pas gérer la reconnexion des manettes
